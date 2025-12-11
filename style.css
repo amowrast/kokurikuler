@@ -1,0 +1,97 @@
+/* Styling Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/736x/16/3a/df/163adfbdc66577def5cfe90b4eb244bf.jpg);
+    background-repeat: repeat;
+    color: #e9e3e3;
+    line-height: 1.8;
+}
+
+/* Header dan Navigasi */
+header {
+    background-color: #D32F2F; /* Merah menyala, identik dengan Madura */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFEB3B; /* Kuning cerah saat di-hover */
+}
+
+/* Konten Utama */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.budaya-item {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.budaya-item h2 {
+    color: #4CAF50; /* Hijau cerah */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Tombol */
+button {
+    background-color: #00BCD4; /* Biru muda */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0097A7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-detail {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-detail:hover {
+    background-color: #218838;
+}
