@@ -14,12 +14,20 @@
             padding: 0;
         }
         .container {
-            max-width: 950px;
-            margin: 40px auto;
+            max-width: 1200px;
+            margin: 20px auto;
             background: white;
-            padding: 25px;
+            padding: 20px;
             border-radius: 15px;
             box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+        }
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        section {
+            flex: 1;
         }
 
         h1 {
@@ -67,33 +75,45 @@
     <div class="container">
 
         <h1>Detail Sejarah Madura</h1>
-        <p>
-          Sejarah Madura dimulai dari pengaruh kerajaan Hindu Jawa (Singasari, Majapahit) sekitar abad ke-13 
-         dengan Arya Wiraraja sebagai adipati pertama,lalu berlanjut di bawah kerajaan Islam Jawa hingga abad ke-17, 
-         sebelum akhirnya dikuasai Belanda, yang membentuk "Negara Madura" (1948-1950) sebagai negara boneka,
-         yang kemudian bergabung kembali dengan RI. Madura memiliki budaya unik karena kondisi geografisnya yang keras,
-         mendorong suku Madura dikenal ulet, mandiri, dan perantau,  serta terkenal dengan tradisi karapan sapi dan garam.
-          
 
-        </p>
+        <section>
+            <h2>Asal Usul dan Perkembangan</h2>
+            <p>
+                Sejarah Madura dimulai dari pengaruh kerajaan Hindu Jawa (Singasari, Majapahit) sekitar abad ke-13
+                dengan Arya Wiraraja sebagai adipati pertama, lalu berlanjut di bawah kerajaan Islam Jawa hingga abad ke-17,
+                sebelum akhirnya dikuasai Belanda, yang membentuk "Negara Madura" (1948-1950) sebagai negara boneka,
+                yang kemudian bergabung kembali dengan RI.
+            </p>
+            <p>
+                Madura memiliki budaya unik karena kondisi geografisnya yang keras, mendorong suku Madura dikenal ulet, mandiri, dan perantau,
+                serta terkenal dengan tradisi karapan sapi dan garam.
+            </p>
+        </section>
 
-        <img src="sejarah madura.jpg" alt="Sejarah Madura">
-
-        <h2>Geografi Pulau Madura</h2>
-        <p>
-          Luas keseluruhan Pulau Madura mencapai sekitar 5.379 km², yang mencakup sekitar 11 persen dari luas
-         daratan Provinsi Jawa Timur.Panjang daratan Pulau Madura membentang sekitar 160 kilometer dari ujung barat
-         di Kamal (Bangkalan) hingga ujung timur di Dungkek (Sumenep), sementara lebr maksimal pulau ini mencapai 
-         sekitar 40 kilometer.Pulau Madura terbagi menjadi empat kabupaten, 
-         •Kabupaten Bangkalan dengan luas 1.144,75 km² yang terbagi menjadi 8 kecamatan,
-         •Kabupaten Sampang dengan luas 1.321,86 km² yang terbagi dalam 12 kecamatan, 
-         •Kabupaten Pamekasan yang memiliki luas 844,19 km² yang terbagi dalam 13 kecamatan,dan 
-         •Kabupaten Sumenep dengan luas wilayah 1.857,530 km² yang terbagi dalam 27 kecamatan
-         yang tersebar di wilayah daratan dan kepulauan
-        </p>
+        <div class="content-wrapper">
+            <div class="image-section">
+                <img src="sejarah madura.jpg" alt="Sejarah Madura">
+            </div>
+            <section>
+                <h2>Geografi Pulau Madura</h2>
+                <p>
+                    Luas keseluruhan Pulau Madura mencapai sekitar 5.379 km², yang mencakup sekitar 11 persen dari luas
+                    daratan Provinsi Jawa Timur. Panjang daratan Pulau Madura membentang sekitar 160 kilometer dari ujung barat
+                    di Kamal (Bangkalan) hingga ujung timur di Dungkek (Sumenep), sementara lebar maksimal pulau ini mencapai
+                    sekitar 40 kilometer.
+                </p>
+                <h3>Kabupaten di Pulau Madura</h3>
+                <ul>
+                    <li>Kabupaten Bangkalan dengan luas 1.144,75 km² yang terbagi menjadi 8 kecamatan</li>
+                    <li>Kabupaten Sampang dengan luas 1.321,86 km² yang terbagi dalam 12 kecamatan</li>
+                    <li>Kabupaten Pamekasan yang memiliki luas 844,19 km² yang terbagi dalam 13 kecamatan</li>
+                    <li>Kabupaten Sumenep dengan luas wilayah 1.857,530 km² yang terbagi dalam 27 kecamatan yang tersebar di wilayah daratan dan kepulauan</li>
+                </ul>
+            </section>
+        </div>
 
        
-        <a href="INDEX1.HTML" class="btn-back">⬅ Kembali ke Halaman Utama</a>
+        <a href="index.html" class="btn-back">⬅ Kembali ke Halaman Utama</a>
 
     </div>
 

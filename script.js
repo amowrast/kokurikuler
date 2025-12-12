@@ -42,3 +42,11 @@ function bukaDetailBatik() {
 function bukaDetailKuliner() {
     window.open("kuliner.html", "_blank");
 }
+
+function bukaDetailSejarah() {
+    window.open("sejarah madura.html", "_blank");
+}
+
+function bukaDetailTradisi() {
+    window.open("TRADISI.html", "_blank");
+}
